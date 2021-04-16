@@ -1,0 +1,47 @@
+@startuml
+
+title Зависимости
+
+note as N1
+    Ассоциация, циклическая зависимость
+endnote
+СlassA1 -- N1
+N1 -- СlassB1
+
+note as N2
+    Класс A вызывает метод у класса B
+endnote
+СlassA2 -- N2
+N2 --> СlassB2
+
+note as N3
+    Аггрегация (у A есть список B)
+endnote
+СlassA3 o-- N3
+N3 -- СlassB3
+
+note as N4
+    Композиция (A не может состоять без B)
+endnote
+СlassA4 *-- N4
+N4 -- СlassB4
+
+note as N5
+    Генерализация (B расширяет A)
+endnote
+СlassA5 <|-- N5
+N5 -- СlassB5
+
+note as N6
+    B реализует интерфейс A
+endnote
+СlassA6 <|.. N6
+N6 .. СlassB
+
+note as N7
+    B использует A
+endnote
+СlassA7 <.. N7
+N7 .. СlassB7
+
+@enduml
