@@ -1,4 +1,4 @@
-№ !! Неподдерживаемые файлы !!
+# !! Неподдерживаемые файлы !!
 
 Актуальные данные здесь: [https://github.com/ezhov-da/patterns](https://github.com/ezhov-da/patterns)
 
