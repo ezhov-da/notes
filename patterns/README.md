@@ -1,3 +1,7 @@
+№ !! Неподдерживаемые файлы !!
+
+Актуальные данные здесь: [https://github.com/ezhov-da/patterns](https://github.com/ezhov-da/patterns)
+
 # Поведенческие паттерны
 ![](http://www.plantuml.com/plantuml/svg/5Sqn3e8X343XtLFeu2WrZav_ua5CWIfDe2MqQFJqulA-yMtcE7oskZkmf3epxOjxjol0m7TuifSPfz58AaxY8Ma3-XPzdJA2g9D1GtCQqD4NOX3lju8inyjP7ok3hAiOHwxidz3_iuqaBty0)
 
